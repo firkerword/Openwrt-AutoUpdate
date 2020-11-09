@@ -4,14 +4,14 @@
 # AutoUpdate
 
 Version=V3.9
-DEFAULT_DEVICE=d-team_newifi-d2
-Github=https://github.com/Hyy2001X/AutoBuild-Actions
+DEFAULT_DEVICE=x86-64
+Github=https://github.com/firkerword/openwrt-stable-version
 
 TIME() {
 	echo -ne "\n[$(date "+%H:%M:%S")] "
 }
 
-Github_Download=$Github/releases/download/AutoUpdate
+Github_Download=$Github/releases/download/openwrt-ZY-X86-64
 Author=${Github##*com/}
 Github_Tags=https://api.github.com/repos/$Author/releases/latest
 cd /etc
