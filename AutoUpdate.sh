@@ -2,11 +2,14 @@
 # https://github.com/Hyy2001X/AutoBuild-Actions
 # AutoBuild Module by Hyy2001
 # AutoUpdate
+
 Version=V3.9
 DEFAULT_DEVICE=x86-64
 Github=https://github.com/firkerword/AutoBuild-Actions
 
-TIME() {echo -ne "\n[$(date "+%H:%M:%S")] "}
+TIME() {
+	echo -ne "\n[$(date "+%H:%M:%S")] "
+}
 
 Github_Download=$Github/releases/download/openwrt-ZY-X86-64
 Author=${Github##*com/}
