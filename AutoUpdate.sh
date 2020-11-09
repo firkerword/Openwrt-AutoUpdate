@@ -4,14 +4,14 @@
 # AutoUpdate
 
 Version=V3.9
-DEFAULT_DEVICE=x86-64
+DEFAULT_DEVICE=generic
 Github=https://github.com/firkerword/AutoBuild-Actions
 
 TIME() {
 	echo -ne "\n[$(date "+%H:%M:%S")] "
 }
 
-Github_Download=$Github/releases/download/openwrt-ZY-X86-64
+Github_Download=$Github/releases/download/AutoUpdate
 Author=${Github##*com/}
 Github_Tags=https://api.github.com/repos/$Author/releases/latest
 cd /etc
