@@ -5,7 +5,7 @@
 
 Version=V3.9
 DEFAULT_DEVICE=x86-64
-Github=https://github.com/firkerword/openwrt-stable-version
+Github=https://github.com/firkerword/AutoBuild-Actions
 
 TIME() {
 	echo -ne "\n[$(date "+%H:%M:%S")] "
